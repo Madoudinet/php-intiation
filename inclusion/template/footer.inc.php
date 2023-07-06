@@ -1,0 +1,3 @@
+<footer>
+    Notre footer
+</footer>

@@ -485,6 +485,30 @@ echo 'Je suis un message';
 
 
 
+// -------------------------------
+echo '<h2>Les objets</h2>';
+// -------------------------------
+// Un objet est un autre type de données.
+// Il représente un objet réel (par exemple : un produit, un personnage, un panier d'achat, etc.)
+// Un objet est déclarer à partir d'un plan de construction : la classe. classe est un plan général de l'objet.
+// L'objet est instancié à partir de la classe. Chaque objet est différent, mais ils ont tous la même structure (les mêmes propriétés et les mêmes méthodes).
+class Hero
+{
+    public $pseudo = 'Tintin';
+    public $vie =100;
+
+    public function regenerer()
+    {
+        $this->vie = 100;
+    }
+}
+
+$hero = new Hero();
+
+echo $hero->pseudo;
+
+$hero2 = new Hero();
+
 
 ?>
 

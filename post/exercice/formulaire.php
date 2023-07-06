@@ -25,30 +25,30 @@ unset($_SESSION['message-error']);
 ?>
 
     <h1>Les formulaires</h1>
-    <form action="./traitement.php" method="POST">
+    <form action="./traitement.php" method="POST" class="border w-50 m-auto p-2">
         <div>
             <label for="name">nom :</label>
-            <input type="text" id="name" name="name">
+            <input type="text" id="name" name="name" class="form-control">
         </div>
         <div>
             <label for="pswd">mot de passe :</label>
-            <input type="password" id="pswd" name="pswd">
+            <input type="password" id="pswd" name="pswd" class="form-control">
         </div>
         <div>
             <label for="color">Couleur :</label>
-            <input type="color" id="color" name="color">
+            <input type="color" id="color" name="color" class="form-control">
         </div>
         <div>
             <label for="date">date :</label>
-            <input type="date" id="date" name="date">
+            <input type="date" id="date" name="date" class="form-control">
         </div>
         <div>
             <label for="email">email :</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" class="form-control">
         </div>
         <div>
             <label for="message">message :</label>
-            <textarea name="message" id="message"></textarea>
+            <textarea name="message" id="message" class="form-control"></textarea>
         </div>
         <div>
             <label for="week">jour de la semaine :</label>

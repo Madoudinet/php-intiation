@@ -35,4 +35,7 @@ inserer des données
 INSERT INTO manga(title, description, price) VALUE ('One Piece', 'Une histoire de pirate', 12.90),
 ('Dragon Ball', 'La bagarre etc', 9.85),
 ('Detective Conan', 'Il resout des énigmes', 8.90),
-('L'Attaque des Titans' , 'Y a des géants qui mangent des gens', 14.90);
+('L''Attaque des Titans' , 'Y a des géants qui mangent des gens', 14.90);
+
+INSERT INTO user(pseudo, password, statut) VALUE ('admin', 'motdepasse1', true),
+('Mando','motdepasse2', false);

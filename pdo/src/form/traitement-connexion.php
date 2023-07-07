@@ -14,7 +14,7 @@ if (isset($_POST)) {
         $user = $stmt->fetch();
         if ($user) {
             $_SESSION['admin'] = $user['statut'];
-            header('Location: ../../index.php');
+            header('Location: ../../admin.php');
             exit();
         } else {
             header('Location: ../../connexion.php');
